@@ -8,10 +8,10 @@ import MySQLdb
 
 db = DBHelper()
 
-bot = telepot.Bot("321746669:AAHNwsV42SX_KOmkYaAYW1eCNH8ydWI6fsE")
+bot = telepot.Bot("386469540:AAH9X1I7y76sDZ2TQsFhJ_4Z9J7hpU6-oww")
 
 def startSummarise(chat_id):
-	db.conn = MySQLdb.connect("localhost", "root", "p@ssword", "ChatDB")
+	db.conn = MySQLdb.connect("GRANT ALL ON *.* to root@'192.168.1.4' IDENTIFIED BY 'your-root-password';", "prof", "p@ssword", "ChatDB")
 	db.cursor = db.conn.cursor()
 	summaryString = textranker("ChatDB")
 	if summaryString == "[]": #output will be [] if there is not enough data

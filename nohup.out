@@ -1,0 +1,1272 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/telepot/loop.py", line 54, in run_forever
+    allowed_updates=allowed_upd)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 876, in getUpdates
+    return self._api_request('getUpdates', _rectify(p))
+  File "/usr/local/lib/python2.7/dist-packages/telepot/__init__.py", line 434, in _api_request
+    return api.request((self._token, method, params, files), **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 131, in request
+    return _parse(r)
+  File "/usr/local/lib/python2.7/dist-packages/telepot/api.py", line 126, in _parse
+    raise exception.TelegramError(description, error_code, data)
+TelegramError: (u'Conflict: terminated by other long poll or webhook', 409, {u'error_code': 409, u'ok': False, u'description': u'Conflict: terminated by other long poll or webhook'})
