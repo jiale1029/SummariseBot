@@ -5,6 +5,10 @@ class DBHelper:
 	def __init__(self, dbname = "ChatDB"):
 		self.conn = MySQLdb.connect("localhost", "prof", "p@ssword", "ChatDB")
 		self.cursor = self.conn.cursor()
+		self.conn.set_character_set('utf8')
+		self.cursor.execute('SET NAMES utf8;')
+		self.cursor.execute('SET CHARACTER SET utf8;')
+		self.cursor.execute('SET character_set_connection=utf8;')
 
 	def add_Message(self, chat_id, messages):
 		try:

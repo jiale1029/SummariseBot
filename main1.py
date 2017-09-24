@@ -15,7 +15,7 @@ def startSummarise(chat_id):
 	db.cursor = db.conn.cursor()
 	summaryString = textranker("ChatDB")
 	if summaryString == "[]": #output will be [] if there is not enough data
-		bot.sendMessage(chat_id,"Not enough messages for me to summarise la dei, so few messages also lazy to read ah?")
+		bot.sendMessage(chat_id,"Not enough text")
 	else:
 		bot.sendMessage(chat_id,summaryString)
 
@@ -23,17 +23,15 @@ def handle(msg):
 	content_type , chat_type ,chat_id = telepot.glance(msg)
 	if content_type == "text":
 		messages = msg["text"]
-		if messages == "/summarise":
-			db.conn = MySQLdb.connect("localhost", "root", "p@ssword", "ChatDB")
-			db.cursor = db.conn.cursor()
+		if messages == "/summarise@NTUSBBot":
+			db.__init__("ChatDB")
 			startSummarise(chat_id)
-		elif messages == "/clear":
-			db.conn = MySQLdb.connect("localhost", "root", "p@ssword", "ChatDB")
-			db.cursor = db.conn.cursor()
+		elif messages == "/clear@NTUSBBot":
+			db.__init__("ChatDB")
 			db.remove_Message(chat_id, messages)
+			bot.sendMessage(chat_id, "Messages have been cleared.")
 		elif messages[0] != "/": #ignore messages starting with /
-			db.conn = MySQLdb.connect("localhost", "root", "p@ssword", "ChatDB")
-			db.cursor = db.conn.cursor()
+			db.__init__("ChatDB")
 			db.add_Message(chat_id,messages)
 			db.update_Message(chat_id, messages)
 
