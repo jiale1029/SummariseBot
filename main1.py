@@ -23,10 +23,11 @@ def handle(msg):
 	content_type , chat_type ,chat_id = telepot.glance(msg)
 	if content_type == "text":
 		messages = msg["text"]
-		if messages == "/summarise@NTUSBBot":
+		chat_id= str(chat_id)
+		if messages == "/summarise@SummarierBot":
 			db.__init__("ChatDB")
 			startSummarise(chat_id)
-		elif messages == "/clear@NTUSBBot":
+		elif messages == "/clear@SummarierBot":
 			db.__init__("ChatDB")
 			db.remove_Message(chat_id, messages)
 			bot.sendMessage(chat_id, "Messages have been cleared.")
@@ -34,6 +35,7 @@ def handle(msg):
 			db.__init__("ChatDB")
 			db.add_Message(chat_id,messages)
 			db.update_Message(chat_id, messages)
+			print("Received "+messages+" from " + chat_id)
 
 MessageLoop(bot,{"chat":handle}).run_as_thread()
 print ("I'm awake and currently collecting your chats")

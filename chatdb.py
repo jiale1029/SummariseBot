@@ -16,7 +16,7 @@ class DBHelper:
 			self.cursor.execute(add) 
 			self.conn.commit()
 		except MySQLdb.Error as er:
-			print("Got error when adding message")
+			print("er")
 
 	def remove_Message(self, chat_id, messages):
 		try:
@@ -24,10 +24,10 @@ class DBHelper:
 			self.cursor.execute(delete)
 			self.conn.commit()
 		except MySQLdb.Error as er:
-			print("Got error when clearing message")
+			print("er")
 
 	def update_Message(self, chat_id, messages):
-		update = "SELECT chat_id, GROUP_CONCAT(messages SEPARATOR ';') FROM content GROUP BY chat_id"
+		update = "SELECT chat_id, GROUP_CONCAT(messages SEPARATOR ' ') FROM content GROUP BY chat_id"
 		self.cursor.execute(update) 
 		self.conn.commit()
 	
