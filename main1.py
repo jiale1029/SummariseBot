@@ -15,7 +15,7 @@ def startSummarise(chat_id):
 	db.cursor = db.conn.cursor()
 	summaryString = textranker("ChatDB")
 	if summaryString == "[]": #output will be [] if there is not enough data
-		bot.sendMessage(chat_id,"Not enough text")
+		bot.sendMessage(chat_id,"Not enough text la dei, so few messages also you lazy to read?")
 	else:
 		bot.sendMessage(chat_id,summaryString)
 
