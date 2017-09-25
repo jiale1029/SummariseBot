@@ -13,7 +13,9 @@ bot = telepot.Bot("321746669:AAHNwsV42SX_KOmkYaAYW1eCNH8ydWI6fsE")
 def startSummarise(chat_id):
 	db.conn = MySQLdb.connect("localhost", "root", "p@ssword", "ChatDB")
 	db.cursor = db.conn.cursor()
-	summaryString = textranker("ChatDB")
+	textTuple = db.get_Message(chat_id,messages)
+	textString =str(textTuple)
+	summaryString = textranker(textString)
 	if summaryString == "[]": #output will be [] if there is not enough data
 		bot.sendMessage(chat_id,"Not enough text la dei, so few messages also you lazy to read?")
 	else:
@@ -22,6 +24,7 @@ def startSummarise(chat_id):
 def handle(msg):
 	content_type , chat_type ,chat_id = telepot.glance(msg)
 	if content_type == "text":
+		global messages
 		messages = msg["text"]
 		chat_id= str(chat_id)
 		if messages == "/summarise@SummarierBot":
@@ -34,7 +37,6 @@ def handle(msg):
 		elif messages[0] != "/": #ignore messages starting with /
 			db.__init__("ChatDB")
 			db.add_Message(chat_id,messages)
-			db.update_Message(chat_id, messages)
 			print("Received "+messages+" from " + chat_id)
 
 MessageLoop(bot,{"chat":handle}).run_as_thread()

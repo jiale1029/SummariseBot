@@ -12,11 +12,11 @@ class DBHelper:
 
 	def add_Message(self, chat_id, messages):
 		try:
-			add = "INSERT INTO content(chat_id, messages) VALUES ('"'%s'"','"'%s'"')" %(chat_id,messages)
-			self.cursor.execute(add) 
+			add = "INSERT INTO content(chat_id, messages) VALUES (%s,%s)"
+			self.cursor.execute(add,(chat_id,messages))
 			self.conn.commit()
 		except MySQLdb.Error as er:
-			print("er")
+			print(er)
 
 	def remove_Message(self, chat_id, messages):
 		try:
@@ -24,10 +24,14 @@ class DBHelper:
 			self.cursor.execute(delete)
 			self.conn.commit()
 		except MySQLdb.Error as er:
-			print("er")
+			print(er)
 
-	def update_Message(self, chat_id, messages):
-		update = "SELECT chat_id, GROUP_CONCAT(messages SEPARATOR ' ') FROM content GROUP BY chat_id"
-		self.cursor.execute(update) 
-		self.conn.commit()
-	
+	def get_Message(self, chat_id, messages):
+		try:
+			update = "SELECT messages FROM content WHERE chat_id = %s"%chat_id
+			self.cursor.execute(update)
+			textTuple = self.cursor.fetchall()
+			return textTuple
+		except MySQLdb.Error as er:
+			print(er)
+
