@@ -11,6 +11,7 @@ db = DBHelper()
 bot = telepot.Bot("321746669:AAHNwsV42SX_KOmkYaAYW1eCNH8ydWI6fsE")
 
 def startSummarise(chat_id):
+	#connect to mysql server
 	db.conn = MySQLdb.connect("localhost", "root", "p@ssword", "ChatDB")
 	db.cursor = db.conn.cursor()
 	textTuple = db.get_Message(chat_id,messages)
