@@ -1,6 +1,15 @@
-# SummariseBot
-Still in progress for school assignment.
+# SummariseBot for Telegram
 
-Problems to solve:
-1) Converting database file to txt file for the summarizer to work.
-2) update_Messages still need to be worked on in order to display the output.
+#Introduction
+The main function of this bot is to provide user an easier way to read through the messages in Telegram.
+
+#Installing
+Modules Required
+-MySQLdb
+-networkx
+-sklearn
+-numpy
+-scipy
+-telepot
+-nltk
+
