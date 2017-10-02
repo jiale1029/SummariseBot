@@ -14,7 +14,7 @@ def startSummarise(chat_id):
 	db.conn = MySQLdb.connect("localhost", "root", "p@ssword", "ChatDB")
 	db.cursor = db.conn.cursor()
 	textTuple = db.get_Message(chat_id,messages)
-	textString =' '.join([''.join(x) for x in textTuple])
+	textString = ' ~ '.join([''.join(x) for x in textTuple])
 	textString = unicode(textString,errors="ignore")
 	if textString == "":
 		bot.sendMessage(chat_id,"Bruh you don't even have messages, don't expect any miracles to happen here.")
@@ -22,8 +22,9 @@ def startSummarise(chat_id):
 		summaryString = textranker(textString)
 		if summaryString == "[]": #output will be [] if there is not enough data
 			bot.sendMessage(chat_id,"Not enough text la dei, so few messages also you lazy to read?")
+			print("Summary requested from " + chat_id)
 		else:
-			bot.sendMessage(chat_id,"Your requested summary has arrived! \n \n "+ summaryString[1:-1])
+			bot.sendMessage(chat_id,"Your requested summary has arrived! \n \n "+ summaryString[3:-2])
 
 def handle(msg):
 	content_type , chat_type ,chat_id = telepot.glance(msg)
