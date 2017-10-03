@@ -8,17 +8,17 @@ These instructions will get the bot running on your local machine with your own 
 
 ### Installation
 Prerequisites
--Have pip installed on your machine.
--Have MySQL installed on your machine.
+* Have pip installed on your machine.
+* Have MySQL installed on your machine.
 
 Modules Required
--MySQLdb
--networkx
--sklearn
--numpy
--scipy
--telepot
--nltk
+* MySQLdb
+* networkx
+* sklearn
+* numpy
+* scipy
+* telepot
+* nltk
 
 In order to install the above mentioned modules, type
 ```
@@ -36,6 +36,7 @@ Next, create a database.
 ```
 mysql> CREATE DATABASE ChatDB;
 ```
+#### Showing the database
 
 Then, in order to show the database is successfully created, type the following lines.
 
@@ -43,6 +44,8 @@ Then, in order to show the database is successfully created, type the following 
 mysql> SHOW DATABASES;
 ```
 You will see the database you just created in the console.
+
+#### Creating a table
 
 Next, create a table named content and two columns which are chat_id and messages to store our chat_id and messages into the database.
 
