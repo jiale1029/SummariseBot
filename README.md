@@ -10,6 +10,7 @@ These instructions will get the bot running on your local machine with your own 
 Prerequisites
 * Have pip installed on your machine.
 * Have MySQL installed on your machine.
+* Your own bot token from botfather.
 
 Modules Required
 * MySQLdb
@@ -61,5 +62,24 @@ A database named ChatDB is successfully created.
 ```
 mysql> SELECT chat_id, messages FROM content;
 ```
+
+### Setting up the bot
+
+#### Changing the token
+
+Open main1.py using a texteditor or even python IDLE. Change the token to your own.
+
+```
+bot = telepot.Bot("Token")
+```
+
+#### Changing the database information.
+
+Open chatdb.py. Change the information into your own.
+
+```
+self.conn = MySQLdb.connect("IP/localhost", "mysqlusername", "password", "databasename(CASE-SENSITIVE)")
+
+
 
 
