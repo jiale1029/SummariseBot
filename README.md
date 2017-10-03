@@ -56,4 +56,10 @@ mysql> CREATE TABLE content (chat_id LONGTEXT(4294967295), messages LONGTEXT(429
 
 A database named ChatDB is successfully created.
 
+#### Viewing the data you collected
+
+```
+mysql> SELECT chat_id, messages FROM content;
+```
+
 
