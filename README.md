@@ -1,12 +1,12 @@
 # SummariseBot for Telegram
 
-##Overview
+## Overview
 The SummariseBot is a bot that can be used to summarise the chats in the app - Telegram.
 
-##Getting Started
+## Getting Started
 These instructions will get the bot running on your local machine with your own bot token.
 
-###Installation
+### Installation
 Prerequisites
 -Have pip installed on your machine.
 -Have MySQL installed on your machine.
@@ -24,7 +24,7 @@ In order to install the above mentioned modules, type
 ```
 pip install modules      e.g. pip install networkx
 ```
-###Creating a Database
+### Creating a Database
 
 First, login to your mysql and type in your password. Type the following lines in your command line.
 
