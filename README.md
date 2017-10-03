@@ -79,7 +79,32 @@ Open chatdb.py. Change the information into your own.
 
 ```
 self.conn = MySQLdb.connect("IP/localhost", "mysqlusername", "password", "databasename(CASE-SENSITIVE)")
+```
 
+### Running the bot
 
+Open terminal and change directory to the source code files. Run the following lines.
 
+```
+python main1.py
+```
+The console will output "I'm awake and currently collecting your chats". Whenever the bot received a messages from a chat_id, it will be shown as an output in the console.
+
+## Built with
+
+* [Summarizer](https://github.com/yask123/Summarize-it/blob/master/summarizer.py) - The summarise algorithm used in bot.
+* [Telepot](https://github.com/nickoala/telepot) - The python framework for Telegram API.
+
+## Authors
+
+### Team Instant Summarisers
+* Mark Nicholas Heah Ming Qiang
+* Lee Ming Hin
+* Poon Jun Yaw
+* James Tan Chee Min
+* Tan Jia Le
+
+## Acknowledgement
+* nickoala - [Telepot](https://github.com/nickoala/telepot) - Python framework for Telegram API.
+* yask123 - [Summarizer.py](https://github.com/yask123/Summarize-it/blob/master/summarizer.py) - Algorithim to summarise.
 
