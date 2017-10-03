@@ -7,12 +7,12 @@ The SummariseBot is a bot that can be used to summarise the chats in the app - T
 These instructions will get the bot running on your local machine with your own bot token.
 
 ### Installation
-Prerequisites
+#### Prerequisites
 * Have pip installed on your machine.
 * Have MySQL installed on your machine.
 * Your own bot token from botfather.
 
-Modules Required
+#### Modules Required
 * MySQLdb
 * networkx
 * sklearn
@@ -25,6 +25,14 @@ In order to install the above mentioned modules, type
 ```
 pip install modules      e.g. pip install networkx
 ```
+##### Exception
+
+For MySQLdb, following is needed.
+```
+apt-get install python-dev libmysqlclient-dev
+pip install MySQL-python
+```
+
 ### Creating a Database
 
 First, login to your mysql and type in your password. Type the following lines in your command line.
