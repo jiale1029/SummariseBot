@@ -16,6 +16,7 @@ import MySQLdb
 import time
 from telepot.namedtuple import InlineKeyboardMarkup, InlineKeyboardButton
 
+
 db = DBHelper()
 summaryString = ""
 current_id="butthole"
@@ -36,7 +37,7 @@ def startSummarise(chat_id):
 		if summaryString == "[]": #output will be [] if there is not enough data, bot sends error message
 			bot.sendMessage(chat_id,error)
 		else:
-			string = string[1:-1]
+			summaryString = summaryString[1:-1]
 			bot.sendMessage(chat_id,"Your requested summary has arrived! \n \n "+ summaryString) #bot sends summarised texts
 
 def handle(msg):
@@ -45,14 +46,17 @@ def handle(msg):
 	if content_type == "text": #checks whether user entered text
 		global messages
 		messages = msg["text"]
-		if messages[:13] == "@SummarierBot": #checks whether user called bot
+		lowercase = messages.lower()
+		if "@summarierbot" in lowercase: #checks whether user called bot
 			keyboard = InlineKeyboardMarkup(inline_keyboard=[
 				[dict(text='Summarise messages', callback_data='summarise')],
 				[dict(text='Clear messages', callback_data='clear')],[dict(text="Send feedback", callback_data='feedback')]])
 			bot.sendMessage(chat_id,"Hey guys, what can I do for you?",reply_markup=keyboard)
-		elif messages[:9] == "/feedback": #checks for feedback command and sends it to our feedback group.
+			print ("Summer called by "+ chat_id)
+		elif lowercase[:9] == "/feedback": #checks for feedback command and sends it to our feedback group.
 			bot.sendMessage(-263652411, messages[9:] + " received from " + chat_id)
-		elif messages[0] != "/": #ignore messages starting with /, saves other messages into database.
+			print("Feedback given by " + chat_id)
+		elif lowercase[0] != "/": #ignore messages starting with /, saves other messages into database.
 			db.__init__("ChatDB")
 			db.add_Message(chat_id,messages)
 			print("Received "+messages+" from " + chat_id)
