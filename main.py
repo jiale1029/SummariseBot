@@ -61,7 +61,7 @@ def handle(msg):
 			db.add_Message(chat_id,messages)
 			print("Received "+messages+" from " + chat_id)
 
-def format(string):
+def format(string): #fixes common formatting issues caused by textrank
 	string = string.replace("u'","")
 	string = string.replace("u\"","")
 	string = string.replace("\\n"," ")
@@ -79,7 +79,7 @@ def format(string):
 
 def on_callback_query(msg):
 	query_id, from_id, query_data = telepot.glance(msg, flavor='callback_query')
-	chat_id = telepot.origin_identifier(msg)
+	chat_id = telepot.origin_identifier(msg) #chat_id of group is obtained
 	chat_id = chat_id[0]
 	chat_id = str(chat_id)
 	print(query_data + " requested from " + chat_id)
